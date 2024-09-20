@@ -1,0 +1,45 @@
+table, th, td {
+  border: 2px solid var(--dark);
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 5px;
+}
+
+th > select {
+  width: 4.5rem;
+}
+
+th, td {
+  max-width: 150px;
+}
+
+th {
+  font-size: 18px;
+  background-color: var(--dark);
+  border: 2px solid var(--gray-dark);
+}
+
+td {
+  font-size: 16px;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: var(--gray);
+}
+
+.college-table {
+  margin-top: 20px;
+}
+
+.none-found {
+  text-align: center;
+}
+
+.loading {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
