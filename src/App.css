@@ -1,0 +1,15 @@
+html {
+  background-color: var(--gray-dark);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
