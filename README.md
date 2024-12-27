@@ -22,7 +22,7 @@ The No Bullshit College Predictor is a streamlined web application designed to a
 
 ## Demo
 
-Experience the live application here: [https://predict-college.netlify.app/](https://predict-college.netlify.app/)
+Experience the live application here: [https://predict-college.netlify.app](https://predict-college.netlify.app/)
 
 ## Installation
 
