@@ -1,82 +1,102 @@
+# No Bullshit College Predictor
 
+The No Bullshit College Predictor is a streamlined web application designed to assist JEE aspirants in identifying potential colleges based on their ranks. Unlike other platforms, it offers immediate predictions without requiring logins or personal data, ensuring a straightforward and user-friendly experience.
 
+## Table of Contents
 
-# No-BS College Predictor
-
-No-BS College Predictor is a simple, no-nonsense tool that allows JEE aspirants to predict potential colleges based on their ranks. This tool eliminates the need for unnecessary logins, data collection, or spammy experiences found on other platforms. The goal is to provide a clear and fast interface to help students focus on choosing the right college based on their rank, category, and exam type (JEE Mains or Advanced).
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data Source](#data-source)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Features
-- **Instant College Predictions**: Get accurate predictions based on your rank without any delays.
-- **Filter by Category**: Apply filters such as OPEN, OBC, SC/ST categories to narrow down college options.
-- **JEE Mains or Advanced**: Toggle between JEE Mains and JEE Advanced to get relevant college predictions.
-- **No Data Collection**: No account creation or data harvesting. Your privacy is respected.
-- **Fast and Responsive UI**: A clean and responsive user interface built with ReactJS and CSS.
 
-## Technology Stack
-- **Frontend**: ReactJS
-- **Styling**: CSS (custom styling for responsive and sleek design)
-- **Package Management**: npm/yarn
-- **Build Tool**: React Scripts
+- **Instant Predictions**: Receive immediate college predictions based on your JEE rank.
+- **No Sign-ups Required**: Access the tool without any registration or login.
+- **Data Privacy**: No personal data is collected or stored.
+- **User-Friendly Interface**: Navigate through a clean and intuitive design.
 
-## How It Works
-1. Select your exam type (JEE Mains or JEE Advanced).
-2. Enter your rank in the input box.
-3. Click the "Get Predictions" button to see a list of potential colleges.
-4. Apply filters like category to narrow down the college list.
-5. The list is dynamically generated based on your inputs and filters.
+## Demo
+
+Experience the live application here: [https://predict-college.netlify.app/](https://predict-college.netlify.app/)
 
 ## Installation
 
-### Prerequisites
-Make sure you have **Node.js** and **npm** or **yarn** installed on your machine.
+To run the project locally, follow these steps:
 
-### Steps
-1. Clone the repository:
+1. **Clone the Repository**:
+
    ```bash
-   git clone https://github.com/2AMDevs/no-bs-college-predictor.git
-   ```
-2. Navigate to the project folder:
-   ```bash
+   git clone https://github.com/yxshee/no-bs-college-predictor.git
    cd no-bs-college-predictor
    ```
-3. Install the dependencies:
+
+2. **Install Dependencies**:
+
+   Ensure you have [Node.js](https://nodejs.org/) installed. Then, run:
+
    ```bash
    npm install
    ```
-   or
-   ```bash
-   yarn install
-   ```
-4. Start the development server:
+
+3. **Start the Application**:
+
    ```bash
    npm start
    ```
-   or
-   ```bash
-   yarn start
-   ```
-   The app will be live at `http://localhost:3000`.
+
+   The application will be accessible at `http://localhost:3000/`.
 
 ## Usage
-1. Enter your JEE rank in the input box.
-2. Select the exam type (JEE Mains or JEE Advanced).
-3. Click "Get Predictions" to see a list of possible colleges.
-4. Use filters to refine the college list based on your category and preferences.
 
-## Folder Structure
-- **src/components**: Contains reusable React components like `CollegePredictor`, `PredictionTable`, and `TableFilter`.
-- **src/css**: Contains all CSS files to style the components.
-- **src/utils**: Contains utility functions like fetching data for categories.
+1. Open the application in your web browser.
+2. Enter your JEE rank in the designated input field.
+3. Click on the "Predict" button.
+4. View the list of colleges where you have a potential chance of admission based on previous years' data.
+
+## Data Source
+
+The predictions are based on historical data from previous years' Round 7 of the JoSAA counseling process. This data provides insights into the closing ranks for various colleges and courses, enabling accurate predictions.
 
 ## Contributing
-Feel free to open issues or submit pull requests if you have any suggestions or improvements. Contributions are always welcome!
 
-## Future Enhancements
-- **State Quotas**: Add a feature to filter by state quota.
-- **More Exam Support**: Expand support to include other exams like BITSAT, VITEEE.
-- **Dynamic Rank Update**: Provide real-time updates based on changes in rank cut-offs.
+We welcome contributions to enhance the No Bullshit College Predictor. To contribute:
+
+1. **Fork the Repository**: Click on the 'Fork' button at the top right of this page.
+2. **Create a New Branch**:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. **Make Your Changes**: Implement your feature or bug fix.
+4. **Commit Your Changes**:
+
+   ```bash
+   git commit -m 'Add feature name'
+   ```
+
+5. **Push to the Branch**:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+6. **Create a Pull Request**: Navigate to your forked repository and click on the 'New Pull Request' button.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/yxshee/no-bs-college-predictor/blob/main/LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by the need for a straightforward and reliable JEE college prediction tool.
+- Data sourced from previous years' JoSAA counseling results.
+- Special thanks to all contributors and users who have provided feedback.
 
 ---
+
