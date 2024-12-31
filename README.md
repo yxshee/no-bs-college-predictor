@@ -37,7 +37,7 @@ To run the project locally, follow these steps:
 
 2. **Install Dependencies**:
 
-   Ensure you have [Node.js](https://nodejs.org/) installed. Then, run:
+   Ensure you have Node.js installed. Then, run:
 
    ```bash
    npm install
