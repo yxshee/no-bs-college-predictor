@@ -20,9 +20,7 @@ The No Bullshit College Predictor is a streamlined web application designed to a
 - **Data Privacy**: No personal data is collected or stored.
 - **User-Friendly Interface**: Navigate through a clean and intuitive design.
 
-## Demo
 
-Experience the live application here: [https://predict-college.netlify.app](https://predict-college.netlify.app/)
 
 ## Installation
 
