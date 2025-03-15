@@ -1,6 +1,6 @@
 # No Bullshit College Predictor
 
-The No Bullshit College Predictor is a streamlined web application designed to assist JEE aspirants in identifying potential colleges based on their ranks. Unlike other platforms, it offers immediate predictions without requiring logins or personal data, ensuring a straightforward and user-friendly experience.
+A streamlined web application designed to assist JEE aspirants in identifying potential colleges based on their ranks. Unlike other platforms, it offers immediate predictions without requiring logins or personal data, ensuring a straightforward and user-friendly experience.
 
 ## Table of Contents
 
