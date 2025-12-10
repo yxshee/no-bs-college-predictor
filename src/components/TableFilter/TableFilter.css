@@ -1,9 +1,14 @@
 .table-filter {
   margin: 5px;
-  padding: 4px 2px 0 2px;
-  background-color: var(--dark);
-  color: var(--yellow);
-  border: 2px solid var(--yellow);
-  font-size: 14px;
-  border-radius: 2px;
+  padding: 6px 4px;
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.table-filter:focus {
+  border-color: var(--accent);
+  outline: none;
 }

@@ -1,6 +1,9 @@
 import allData from './dataSources/categoricalData.json'
 
-const getByCategory = (category = 'OPEN') => allData[category]
+const getByCategory = (category = 'OPEN') => {
+  return allData[category]
+}
+
 const everything = 42
 
 export { getByCategory, everything }

@@ -36,8 +36,14 @@ const CollegePredictor = () => {
   }
 
   const getFilteredColleges = () => new Promise(((resolve, _reject) => {
-    const filteredColleges = getByCategory(filters.category)
-      .filter(filterData)
+    const categoryData = getByCategory(filters.category)
+    
+    if (!categoryData || !Array.isArray(categoryData)) {
+      resolve([])
+      return
+    }
+    
+    const filteredColleges = categoryData.filter(filterData)
 
     // using this to prevent 1 second lag, loading is better than lag
     setTimeout(() => {
@@ -55,6 +61,7 @@ const CollegePredictor = () => {
 
   useEffect(() => {
     filterColleges()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exam, filters])
 
   return (
@@ -97,15 +104,15 @@ const CollegePredictor = () => {
           </button>
         </div>
         <div className="dev-links">
-          Made in Rajasthan by
+          Made by
           &nbsp;
           <a
             className="dev-link"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/2AMDevs/no-bs-college-predictor/"
+            href="https://github.com/yxshee"
           >
-            2AM Devs
+            yxshee
           </a>
         </div>
       </div>

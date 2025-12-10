@@ -7,7 +7,7 @@ const TableFilter = ({
 }) => (
   <th>
     {title}
-    {data?.length && (
+    {data?.length > 0 && (
       <select
         id={property}
         name={title}

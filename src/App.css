@@ -1,10 +1,10 @@
 html {
-  background-color: var(--gray-dark);
+  background-color: var(--bg-dark);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: white;
+  color: var(--text-primary);
 }
 
 .app {
@@ -12,4 +12,7 @@ html {
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 20px;
 }
