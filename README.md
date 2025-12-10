@@ -275,17 +275,3 @@ See [CHANGELOG.md](CHANGELOG.md) for a detailed version history.
 ### ⭐ Star this repo if it helped you!
 
 **Made with 🖤 for JEE aspirants everywhere**
-
-<br />
-
-```
- _   _           ____   ____  
-| \ | | ___     | __ ) / ___| 
-|  \| |/ _ \ __ |  _ \ \___ \ 
-| |\  | (_) |__|| |_) | ___) |
-|_| \_|\___/    |____/ |____/ 
-                              
-   College Predictor
-```
-
-</div>
