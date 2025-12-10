@@ -1,7 +1,27 @@
 {
-  "name": "jee-college-predictor",
-  "version": "1.0.0",
+  "name": "no-bs-college-predictor",
+  "version": "2.0.0",
+  "description": "A minimalist, privacy-first JEE college prediction tool. No signups. No ads. No BS.",
+  "author": "yxshee <https://github.com/yxshee>",
+  "license": "MIT",
   "private": true,
+  "homepage": "https://no-bs-predictor.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yxshee/no-bs-college-predictor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yxshee/no-bs-college-predictor/issues"
+  },
+  "keywords": [
+    "jee",
+    "college-predictor",
+    "josaa",
+    "iit",
+    "nit",
+    "react",
+    "education"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
